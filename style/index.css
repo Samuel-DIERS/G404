@@ -1,0 +1,77 @@
+body{
+    background-color: #292929;
+    color: antiquewhite;
+}
+.carousel{
+    width: 25%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+#search{
+    margin-left: 38%;
+    margin-right: 38%;
+    border-radius: 5%;
+    background-color: #292929;
+}
+input[type=search]{
+    background-color: #AAAAAA;
+
+}
+ #navi{
+    background-color: #292929 ;
+}
+.container{
+    background-color: #404040 ;
+    border-radius: 0 0 1cm 1cm;
+    padding: 0%;
+}
+.container-onglet{
+    display: flex;
+    width: 25;
+    height: 20%;
+    border-bottom: solid 1px #AAAAAA;
+
+}
+.onglet{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    cursor: pointer;
+    padding-top: 1%; 
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-right: solid 1px #AAAAAA;
+}
+.onglet:nth-child(4){
+    padding-top: 1%; 
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;  
+}
+.contenu-container{
+    display: flex;
+}
+.contenu{
+    flex: 1;
+    height: 70%;
+    width: 100%;
+    padding: 1%;
+    opacity: 0%;
+}
+
+/* anim */
+.oActive{
+    background: #242424;
+    text-decoration: solid ;
+}
+.activeContenu{
+    animation:fade 0.5s forwards;
+}
+@keyframes fade{
+    from{opacity: 0%;} to {opacity: 100%;}
+}
