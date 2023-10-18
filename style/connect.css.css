@@ -1,0 +1,123 @@
+.titre{
+    color: #ffffff;
+    font-family: verdana;
+    border: 1px solid #FFFF00; 
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #686868;
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    background-image: url(logo.png);
+   
+    background-position: center;
+    background-size: cover
+    ;
+    
+}
+
+.container {
+    background-color: #242424;
+    border: 1px solid #FFFF00;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+    
+}
+
+.texte {
+    color: #00FFDD;
+}
+
+#cn {
+    font-size: 24px;
+    color: #333;
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    color: #444;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #33adff;
+}
+
+input[type="submit"] {
+    background-color: #33adff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00FFDD;
+}
+
+.bouton {
+    background-color: #00FFDD;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #00FFDD;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #00FFDD;
+}
+
+.mdp, a {
+    color: #FFFF00 !important;
+    font-size: small;
+    font-family: Arial;
+
+
+}
+
