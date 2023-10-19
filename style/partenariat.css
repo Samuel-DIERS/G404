@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body{
+    background-color: rgb(41, 41, 41);
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.text{
+    color: rgb(0, 255,255);
+    font-family:'Zen Dots', sans-serif;
+    text-indent: 15%; 
+    font-size: 75%;
+    margin-top: 70px;
+}
+
+table{
+    margin: auto ; 
+    padding: auto;
+}
+
+table tr td{
+     transition: 0.5s;
+     border-radius: 5%;
+}
+
+table tr td:hover{
+        box-shadow: inset -5px -5px 0px -5px rgb(0, 255, 221), 0px 0px 5px 5px rgb(0, 255, 221);
+}
+
+img{
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    max-width: 70%;
+    margin: 14%;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: -8%;
+    margin-right: 2%;
+}
+
+img:hover{
+    border-radius: 3%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.logo1{
+    filter: drop-shadow(3px 3px 3px rgb(0, 17, 64));
+}
+
+.logo2{
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
+
+.logo3{
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
+
+.logo4{
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+
+.logo5{
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+
+.logo6{
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
+
+.logo7{
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
+
+.logo8{
+    filter: drop-shadow(3px 3px 3px rgb(252, 126, 0));
+}
+
+.logo9{
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+
+.logo10{
+    filter: drop-shadow(3px 3px 3px rgb(250, 227, 74));
+}
+
+.logo11{
+    filter: drop-shadow(3px 3px 3px rgb(240, 67, 31));
+}
+
+.logo12{
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
+
+.logo13{
+    filter: drop-shadow(3px 3px 3px rgb(255, 173, 0));
+}
+
+.logo14{
+    filter: drop-shadow(3px 3px 3px rgb(78, 27, 66));
+}
+
+.logo15{
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.body {
+    background-color: #292929;
+    color: #00ffdd;
+        font-size: 1.4rem;
+}
+
+.jaune{
+    color: #ffff00;
+}
+
+.barre {
+    text-align: center;
+    background-color: #292929;
+    color: #00ffdd;
+}
+
+@font-face {
+src: url(police/ZenDots-Regular.ttf);
+font-family: 'Zen Dots', sans-serif;
+} 
+
+[class*="col-"] {
+    background-color: #292929;
+    border: 2px solid #000000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.titre {
+    border-radius: 30px;
+    border-width: 2px;
+    border-color:cyan ;
+    background-color: rgb(68, 68, 68);
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+   margin: 10px;
+   padding: 3px;
+}
+
+.image{
+    width: 200px;
+    height: 125px;
+   margin: 10px;
+   padding: 3px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+  
+.titre{
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.element{
+    color:#ffff00 ;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.header{
+    background-color: #404040;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.footer{
+    background-color: #404040;
+    border: 10px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+h1{
+    color: #0fd;
+}
+
+@font-face{
+    font-family: stylish;
+    src: url(police/ZenDots-Regular.ttf);
+}
+
+.body{
+ background-color: #292929;
+ color: #00ffdd;
+ font-family: stylish ;
+ font-size: 1.4rem;
+}
+
+.black{
+    background-color: #292929;
+}
+
+.grey{
+    background-color: #404040;
+}
+
+.greylight{
+    background-color: #575757;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.borderless{
+    border-width: 0px;
+}
+
+.neonbleue{
+    text-shadow: 0 0 60px rgba(0, 255, 225, 0.8);
+}
+
+.neonjaune{
+    text-shadow: 0 0 60px rgba(251, 255, 0, 0.8);
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.deroulant{
+    color: #00ffdd;
+    background-color: #292929;
+}
+
+.borderless{
+    border-width: 0px;
+}
