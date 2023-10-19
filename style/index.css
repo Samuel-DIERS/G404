@@ -1,6 +1,91 @@
-body{
+
+.titre {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.element {
+    color:#ffff00 ;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.header {
+    background-color: #404040;
+    border: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #404040;
+    border: 10px;
+    padding: 10px;
+    width: 99.8%;
+    top : 220%;
+    position: absolute;
+ 
+}
+h1 {
+    color: #0fd;
+}
+
+@font-face {
+font-family: stylish;
+src: url(police/ZenDots-Regular.ttf);
+}
+
+.body {
+ background-color: #292929;
+ color: #00ffdd;
+ font-family: stylish;
+
+}
+
+.black {
     background-color: #292929;
-    color: antiquewhite;
+}
+
+.grey {
+    background-color: #404040;
+}
+
+.greylight{
+    background-color: #575757;
+}
+.icone {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.borderless {
+    border-width: 0px;
+}
+.neonbleue {
+    text-shadow: 0 0 60px rgba(0, 255, 225, 0.8);
+}
+
+.neonjaune {
+    text-shadow: 0 0 60px rgba(251, 255, 0, 0.8);
+}
+
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.center {
+    display: flex;
+    align-items: center;
+   
+}
+.deroulant {
+    color: #00ffdd;
+    background-color: #292929;
 }
 .carousel{
     width: 25%;
@@ -58,25 +143,73 @@ input[type=search]{
 }
 .contenu{
     position: absolute;
-    height: 70%;
-    width: 93.15%;
     padding: 1%;
     opacity: 0%;
     padding-right: 4%;
     background-color: #404040;
+    height: 150%;
+    width: 93%;
 }
 .uno {
-left : 2%
+    left : 2%;
+    top: 10%;
 }
 .dos {
     left : 38%;
-    bottom : 35%
+    bottom : 22%;
 }
 .tres {
     left : 74%;
-    bottom : 70%
+    bottom : 54%;
 }
-
+.quatro {
+    left : 2%;
+    bottom : 42%
+}
+.cinquo{
+    left : 38%;
+    bottom : 73.5%
+}
+.six {
+    left: 74%;
+    bottom: 105.5%;
+}
+.putain{
+    width: 50px;
+    padding-right: 10px;
+}
+.Date {
+    position: absolute;
+    width: 100px;
+}
+.vsoct{
+    bottom: 92%;
+    left: 2%;
+}
+.unnov{
+    bottom: 92%;
+    left: 36%;
+}
+.denov{
+    bottom: 92%;
+    left: 70%;
+}
+.troinov{
+    bottom: 47%;
+    left: 2%;
+}
+.dspnov{
+    bottom: 47%;
+    left: 36%;
+}
+.sptdec{
+    bottom: 47%;
+    left: 70%;
+}
+/* .miaou {
+    height: 300px ;
+    width: 600px !important; 
+} */
 /* anim */
 .oActive{
     background: #242424;
